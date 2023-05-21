@@ -1,0 +1,241 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --gray: #e4f9f5;
+    --white: #ffffff;
+    --blue: #66bfbf;
+    --dot-color: #eaf6f6;
+    --button-color: #11a6ab;
+    --footer-textweb: #11999e;
+}
+
+body {
+    background-color: var(--white);
+}
+
+.header-container {
+    background-color: var(--gray);
+    margin: auto;
+}
+
+.top-cloud {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 70%;
+    margin: auto;
+    padding: 30px 0px;
+}
+
+.text h1 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-family: "Satisfy", cursive;
+    font-size: 90px;
+    color: var(--blue);
+}
+
+.text h2 {
+    display: inline-block;
+    width: 100%;
+    font-family: "Montserrat", sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    color: var(--blue);
+    text-align: center;
+    padding: 40px 0px 30px 0px;
+}
+
+.pro {
+    text-decoration: underline;
+    font-weight: 400;
+}
+
+.bottom-cloud {
+    width: 70%;
+    margin: auto;
+}
+
+.mountain {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 5px 0px;
+}
+
+.profile-container {
+    background-color: var(--white);
+    margin: 80px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.person-img {
+    width: 10%;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.person-img img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.hello {
+    margin: 30px 0px 0px 0px;
+    text-align: center;
+    line-height: 80px;
+}
+
+.hello h3 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    color: var(--blue);
+}
+
+.hello p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+hr {
+    border: dotted var(--dot-color) 6px;
+    border-bottom: none;
+    width: 6%;
+    margin: auto;
+}
+
+.skill {
+    margin: 80px 0px 80px 0px;
+}
+
+.skill h3 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    color: var(--blue);
+    text-align: center;
+    padding: 0px 0px 30px 0px;
+}
+
+.skill-1 {
+    padding-top: 50px;
+    width: 40%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.computer-img {
+    width: 25%;
+}
+
+.computer-img img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.noodle-img {
+    width: 25%;
+}
+
+.noodle-img img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.infor-1 {
+    width: 60%;
+}
+
+.infor-1 h4 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: var(--blue);
+    margin: 20px 0px 30px 0px;
+}
+
+.infor-1 p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.contact-me {
+    width: 100%;
+    margin: 80px 0px 80px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-me h3 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    color: var(--blue);
+    text-align: center;
+    padding: 0px 0px 30px 0px;
+}
+
+.contact-me h4 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: var(--blue);
+    margin: 20px 0px 50px 0px;
+}
+
+.contact-me p {
+    width: 30%;
+    text-align: center;
+    margin-bottom: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.contact-me .btn-contactme {
+    width: 150px;
+    height: 50px;
+    background-color: var(--button-color);
+    border-radius: 8px;
+    border: none;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    color: var(--white);
+    cursor: pointer;
+}
+
+footer {
+    background-color: var(--blue);
+    padding: 50px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer a {
+    font-family: "Merriweather", sans-serif;
+    margin-right: 20px;
+    margin-left: 20px;
+    color: var(--footer-textweb);
+    font-size: 20px;
+}
+
+footer p {
+    padding: 30px 0px 0px 0px;
+    font-family: "Merriweather", sans-serif;
+    font-size: 20px;
+    color: var(--white);
+}
